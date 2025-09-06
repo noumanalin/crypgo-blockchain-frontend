@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { navLinks } from "../utils/appData";
 
 const Navbar = () => {
@@ -49,13 +50,14 @@ const Navbar = () => {
                     {item.name}
                   </NavLink>
                 ) : (
-                  <Link
+                  <HashLink
                     key={index}
+                    smooth
                     to={item.href}
                     className="text-md transition-colors duration-300 text-white hover:text-[var(--tertiary-color)]"
                   >
                     {item.name}
-                  </Link>
+                  </HashLink>
                 )
               )}
           </nav>
@@ -112,14 +114,15 @@ const Navbar = () => {
                     {item.name}
                   </NavLink>
                 ) : (
-                  <a
+                  <HashLink
                     key={index}
-                    href={item.href}
+                    smooth
+                    to={item.href}
                     className="transition-colors duration-300 text-white hover:text-tertiary"
                     onClick={handleLinkClick}
                   >
                     {item.name}
-                  </a>
+                  </HashLink>
                 )
               )}
 

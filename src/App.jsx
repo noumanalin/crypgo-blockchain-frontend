@@ -4,6 +4,7 @@ import Docs from "./pages/Docs"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import { Route, Routes } from "react-router-dom"
+import ScrollToTopButton from "./components/ScrollToTopButton"
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
           </Routes> 
       </main>
       <Footer />
+
+      <ScrollToTopButton/>
     </>
   )
 }

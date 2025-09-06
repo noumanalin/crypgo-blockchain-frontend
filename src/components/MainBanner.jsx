@@ -8,7 +8,7 @@ import googlePlay from '../assets/playstore.png'
 
 const MainBanner = () => {
     return (
-        <section className="flex flex-col lg:flex-row items-start justify-between gap-10 lg:gap-0 mt-20">
+        <section id="main-banner" className="flex flex-col lg:flex-row items-start justify-between gap-10 lg:gap-0 mt-20">
             <motion.article
                 variants={fadeInLine("left", 0.7)}
                 initial="hidden"

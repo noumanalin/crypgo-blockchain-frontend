@@ -15,7 +15,7 @@ const data = [
 
 const Portfolio = () => {
     return (
-        <section aria-label="Portfolio" className="wrapper flex flex-col md:flex-row gap-8 md:gap-4 items-center">
+        <section id="portfolio" aria-label="Portfolio" className="wrapper flex flex-col md:flex-row gap-8 md:gap-4 items-center">
             {/* Left - media section */}
             <motion.figure
                 variants={fadeBlock("down", 0.7)}
