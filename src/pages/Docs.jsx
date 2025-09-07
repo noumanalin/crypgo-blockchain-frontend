@@ -9,7 +9,7 @@ const Docs = () => {
     <section className="flex relative">
       <DocsSidebar />
 
-      <section className="flex-1 ml-0 md:ml-64 p-6">
+      <section className="w-full md:ml-64 p-6">
           <PackageVersions />
           <PackageStructure />
           <QuickStart />

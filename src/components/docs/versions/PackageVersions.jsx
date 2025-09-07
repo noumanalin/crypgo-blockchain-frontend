@@ -16,7 +16,7 @@ const techs = [
 
 const PackageVersions = () => {
     return (
-        <article id='PackageVersions' className="w-full mb-15">
+        <article id='PackageVersions' className=" mb-15">
             <h1 className="text-2xl font-bold">Pacakge Versions</h1>
             <Border className="flex flex-col md:flex-row justify-between items-center relative">
                 {techs && techs.map((tech, index) => (

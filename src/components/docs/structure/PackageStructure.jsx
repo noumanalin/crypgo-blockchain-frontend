@@ -3,11 +3,11 @@ import Border from "../Border";
 
 const PackageStructure = () => {
   return (
-    <div id="PackageStructure" className="w-full">
+    <div id="PackageStructure" className="">
       <h1 className="text-2xl font-bold mb-4">Package Structure</h1>
 
       <Border>
-        <pre className="text-lg  font-mono leading-6  -pre">
+        <pre className="text-lg  font-mono leading-6 overflow-hidden  -pre">
 {
 `Crypgo Tailwind NextJs Template
 
