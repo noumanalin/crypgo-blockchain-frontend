@@ -17,7 +17,8 @@ const ScrollToTopButton = () => {
           className="bg-[#102C46] text-white p-2 rounded-xl "
           aria-label="Scroll to top"
         >
-            <ChevronUp />
+            <ChevronUp
+             />
           {/* <ArrowUp size={24} /> */}
         </button>
     </div>
